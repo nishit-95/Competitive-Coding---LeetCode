@@ -17,12 +17,10 @@ public class LongestCommonPrefix {
     public static void main(String[] args) {
         LongestCommonPrefix solution = new LongestCommonPrefix();
         
-        // Test cases
         String[] strings1 = {"flower", "flow", "flight"};
         String[] strings2 = {"dog", "racecar", "car"};
         String[] strings3 = {"apple", "applebee", "app"};
         
-        // Output the result of each test case
         System.out.println("Longest common prefix for strings1: " + solution.longestCommonPrefix(strings1));
         System.out.println("Longest common prefix for strings2: " + solution.longestCommonPrefix(strings2));
         System.out.println("Longest common prefix for strings3: " + solution.longestCommonPrefix(strings3));
