@@ -10,8 +10,6 @@ public class MaxProfit {
                     maxProfit = price - minPrice; 
                 }
             }
-    
             return maxProfit;
         }
-    
 }
